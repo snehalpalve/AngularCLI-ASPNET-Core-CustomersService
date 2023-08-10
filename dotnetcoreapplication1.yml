@@ -33,6 +33,6 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: true
-    arguments: '--configuration $(buildConfiguration) --output $(buildConfiguration)'
+    arguments: '--configuration $(buildConfiguration) --output $(BuildArtifactStagingDirectory)'
     zipAfterPublish: true
     modifyOutputPath: true
